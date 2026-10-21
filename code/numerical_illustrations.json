@@ -1,0 +1,65 @@
+{
+  "status": "ILLUSTRATIVE_NUMERICS_ONLY",
+  "T0": 1,
+  "T": 2,
+  "records": [
+    {
+      "d": 1,
+      "n": 2,
+      "norm_ratio": 2.1851243120572343,
+      "analytic_lower_bound": 0.05880501818843915,
+      "simplified_lower_bound": 0.016014580944008733,
+      "solver_evaluations": 182
+    },
+    {
+      "d": 2,
+      "n": 3,
+      "norm_ratio": 3.5744974889355756,
+      "analytic_lower_bound": 0.08604168061821228,
+      "simplified_lower_bound": 0.024021871416013103,
+      "solver_evaluations": 182
+    },
+    {
+      "d": 4,
+      "n": 5,
+      "norm_ratio": 11.586033851688654,
+      "analytic_lower_bound": 0.19111852574194005,
+      "simplified_lower_bound": 0.05404921068602948,
+      "solver_evaluations": 182
+    },
+    {
+      "d": 8,
+      "n": 9,
+      "norm_ratio": 158.0062344616315,
+      "analytic_lower_bound": 0.9612774109552426,
+      "simplified_lower_bound": 0.27362412909802425,
+      "solver_evaluations": 182
+    },
+    {
+      "d": 16,
+      "n": 17,
+      "norm_ratio": 36802.38327635117,
+      "analytic_lower_bound": 24.556481285888637,
+      "simplified_lower_bound": 7.01268715239116,
+      "solver_evaluations": 182
+    },
+    {
+      "d": 32,
+      "n": 33,
+      "norm_ratio": 2295120486.3756404,
+      "analytic_lower_bound": 16103.473124747705,
+      "simplified_lower_bound": 4606.219288776653,
+      "solver_evaluations": 182
+    },
+    {
+      "d": 64,
+      "n": 65,
+      "norm_ratio": 9.61332007840973e+18,
+      "analytic_lower_bound": 6942029089.810707,
+      "simplified_lower_bound": 1987306712.2841969,
+      "solver_evaluations": 182
+    }
+  ],
+  "tighter_tolerance_check_d16_relative_difference": 8.926193117986259e-14,
+  "method": "DOP853 for mean-field trajectory; positive Volterra quadrature, avoiding alternating-sum cancellation"
+}

@@ -1,0 +1,56 @@
+target_id: sis-reconstruction-and-prediction-2026-10-20
+search_date: '2026-10-20'
+intended_contribution_unit: theorem
+claim:
+  exact_statement: |
+    Resolve Conjecture 3.3 and both clauses (14),(15) of Conjecture 3.11 in
+    Keliger and Horvath (2026) for the deterministic weighted-network SIS model
+    z_i'=(1-z_i) sum_j w_ij pi_j z_j-gamma_i z_i. W is symmetric,
+    0<m<=w_ij<=M, m<=z_i(0)<=1-m, 0<=gamma_i<=M, pi is a probability
+    vector (strictly positive for reconstruction). Refute sufficiency of absence
+    of block regularity using nonstationary strictly positive examples; prove
+    bounded optimal Gram interval-extension constants for each fixed n; refute
+    uniform boundedness in n even with uniform positive populations and
+    reconstructible networks. Also derive an explicit dimension-independent
+    Holder continuation bound for bounded candidate-network residuals.
+  exclusions:
+    - No claim that exact reconstruction is generically impossible.
+    - No contradiction of the source's qualitative continuity theorem.
+    - No claim of new Noetherian or general analytic-continuation machinery.
+    - No inference about practical noisy prediction from exact data alone.
+source:
+  originating_reference: Keliger and Horvath (2026), Journal of Mathematical Biology 92, 82, Conjectures 3.3 and 3.11
+  url: https://doi.org/10.1007/s00285-026-02401-6
+normalisation:
+  indices: i=0,...,d for the dimension-growth family, n=d+1; otherwise i=1,...,n
+  scaling: Pi=diag(pi); A=W Pi; gamma contains recovery rates; time is in arbitrary consistent units
+  basis_order: community order
+  symmetries: [simultaneous community permutation]
+sequences:
+  - name: cancellation coefficients
+    exact_values: ['1,-1', '1,-2,1', '1,-3,3,-1', '1,-4,6,-4,1']
+    natural_scalings: [signed binomial coefficients]
+generating_functions:
+  - name: finite-difference exponential kernel
+    expression: '(1-exp(-t/d))^d'
+    variables: [t]
+matrices:
+  - name: two-community baseline contact matrix
+    entries: [['2/3','2/3'],['2/3','2/3']]
+  - name: two-community indistinguishable contact matrix
+    entries: [['1','1/2'],['1/2','3/4']]
+  - name: three-community homogeneous-recovery perturbation direction
+    entries: [['1','-2','1'],['-2','4','-2'],['1','-2','1']]
+aliases:
+  analysis: [Noetherian functions, polynomial Lie derivatives, analytic continuation, propagation of smallness]
+  probability: [metapopulation epidemic model, mean-field SIS]
+  combinatorics: [equitable partition, balanced colouring, binomial finite differences]
+  mathematical_physics: [synchronisation, invariant subspaces]
+  statistics_optimisation_ml: [network reconstruction, structural identifiability, observability, persistent excitation, inverse problems]
+known_invariants:
+  trajectory_span: 'r'
+  symmetric_ambiguity_dimension: '(n-r)(n-r+1)/2'
+  dimension_growth_contact_spectrum: 'n,0,...,0 for W=11^T before population normalisation'
+search_constraints:
+  primary_sources_only_for_technical_claims: true
+  databases_or_corpora: [arXiv, Springer version of record, PMC, Numdam, web search, MathDB, Evidence Press]

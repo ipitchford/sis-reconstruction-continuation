@@ -1,0 +1,54 @@
+{
+  "package": "sis-reconstruction-continuation",
+  "version": "1.0.0-candidate",
+  "claims": [
+    {
+      "id": "fixed-dimensional-continuation",
+      "statement": "For fixed network dimension and bounded SIS parameters, the least interval-continuation factor is uniformly finite.",
+      "assurance": "analytic proof",
+      "limits": "Existence is proved; a useful numerical value is not computed."
+    },
+    {
+      "id": "dimension-free-linear-failure",
+      "statement": "A bounded, exactly reconstructible SIS family has continuation factors with exponential lower growth as network dimension increases.",
+      "assurance": "analytic proof with exact finite cross-checks",
+      "limits": "The exhibited direction gives the stated rate; no matching upper rate for the optimal factor is claimed."
+    },
+    {
+      "id": "admissible-residual-realisation",
+      "statement": "Symmetric contact matrices in the same admissible box realise the exponential direction in the source residual metric.",
+      "assurance": "analytic proof and exact rational checks",
+      "limits": "This is not automatically a lower bound for nonlinear trajectory-error amplification."
+    },
+    {
+      "id": "dimension-free-holder-residual",
+      "statement": "Uniformly bounded SIS parameters imply an explicit dimension-free Holder continuation estimate for the residual.",
+      "assurance": "analytic proof",
+      "limits": "The exponent and constants are not claimed optimal or practically sharp."
+    },
+    {
+      "id": "trajectory-and-sampled-observation",
+      "statement": "The Holder estimate extends to differences of full community-resolved trajectories and to deterministic finite samples with explicit fill-distance and bounded-error terms.",
+      "assurance": "analytic proof independently re-derived in review",
+      "limits": "This is not a stochastic observation model and does not apply to aggregate prevalence alone."
+    },
+    {
+      "id": "reconstruction-fibre",
+      "statement": "The symmetric contact-matrix ambiguity space for a trajectory of span dimension r has dimension (n-r)(n-r+1)/2.",
+      "assurance": "analytic linear-algebra proof",
+      "limits": "Positive population weights are required for the reconstruction statement."
+    },
+    {
+      "id": "block-regularity-counterexamples",
+      "statement": "Nonstationary SIS trajectories can fail reconstruction without a nontrivial block-regular partition.",
+      "assurance": "analytic proof and exact rational examples",
+      "limits": "One reduction is an explicit consequence of a 2021 complete-network theorem and is credited accordingly."
+    },
+    {
+      "id": "positive-invariant-rays",
+      "statement": "All positive nonconstant invariant rays are classified by the displayed algebraic identities, yielding maximal ambiguity families.",
+      "assurance": "analytic proof with exact finite cross-checks",
+      "limits": "Historical priority is bounded by the recorded search, not certified exhaustively."
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "status": "PASS",
+  "arithmetic": "fractions.Fraction (exact rational arithmetic)",
+  "python": "3.12.14",
+  "ray_checks": [
+    {
+      "n": 2,
+      "ambiguity_dimension": 1
+    },
+    {
+      "n": 3,
+      "ambiguity_dimension": 3
+    },
+    {
+      "n": 4,
+      "ambiguity_dimension": 6
+    },
+    {
+      "n": 5,
+      "ambiguity_dimension": 10
+    },
+    {
+      "n": 6,
+      "ambiguity_dimension": 15
+    },
+    {
+      "n": 7,
+      "ambiguity_dimension": 21
+    },
+    {
+      "n": 8,
+      "ambiguity_dimension": 28
+    },
+    {
+      "n": 9,
+      "ambiguity_dimension": 36
+    },
+    {
+      "n": 10,
+      "ambiguity_dimension": 45
+    },
+    {
+      "n": 11,
+      "ambiguity_dimension": 55
+    },
+    {
+      "n": 12,
+      "ambiguity_dimension": 66
+    }
+  ],
+  "homogeneous_example": {
+    "n": 3,
+    "perturbation": "v v^T/8",
+    "entry_range": [
+      "3/4",
+      "3/2"
+    ]
+  },
+  "jet_checks": [
+    {
+      "d": 1,
+      "n": 2,
+      "first_nonzero_output_coefficient": "1/2",
+      "jet_determinant": "-1/4",
+      "network_perturbation_scale": "1/2"
+    },
+    {
+      "d": 2,
+      "n": 3,
+      "first_nonzero_output_coefficient": "1/8",
+      "jet_determinant": "-1/64",
+      "network_perturbation_scale": "1/8"
+    },
+    {
+      "d": 3,
+      "n": 4,
+      "first_nonzero_output_coefficient": "1/54",
+      "jet_determinant": "1/11664",
+      "network_perturbation_scale": "1/18"
+    },
+    {
+      "d": 4,
+      "n": 5,
+      "first_nonzero_output_coefficient": "1/512",
+      "jet_determinant": "1/33554432",
+      "network_perturbation_scale": "1/72"
+    },
+    {
+      "d": 5,
+      "n": 6,
+      "first_nonzero_output_coefficient": "1/6250",
+      "jet_determinant": "-1/1953125000000",
+      "network_perturbation_scale": "1/200"
+    },
+    {
+      "d": 6,
+      "n": 7,
+      "first_nonzero_output_coefficient": "1/93312",
+      "jet_determinant": "-1/2807929681968365568",
+      "network_perturbation_scale": "1/800"
+    },
+    {
+      "d": 7,
+      "n": 8,
+      "first_nonzero_output_coefficient": "1/1647086",
+      "jet_determinant": "1/117756553355453430010061056",
+      "network_perturbation_scale": "1/2450"
+    },
+    {
+      "d": 8,
+      "n": 9,
+      "first_nonzero_output_coefficient": "1/33554432",
+      "jet_determinant": "1/166153499473114484112975882535043072",
+      "network_perturbation_scale": "1/9800"
+    },
+    {
+      "d": 9,
+      "n": 10,
+      "first_nonzero_output_coefficient": "1/774840978",
+      "jet_determinant": "-1/8937434693721817524112791018984168796202443776",
+      "network_perturbation_scale": "1/31752"
+    }
+  ],
+  "not_machine_verified": [
+    "Noetherian closure for arbitrary fixed n",
+    "uniform companion observability lemma",
+    "complex-time Holder continuation",
+    "unrestricted all-dimension asymptotic argument"
+  ],
+  "elapsed_seconds": 0.025582756999938283
+}

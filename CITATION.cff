@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this research, please cite the archived release."
+title: "Reconstruction and continuation in network SIS epidemics"
+type: article
+authors:
+  - family-names: "Anonymous"
+version: 1.0.0-candidate
+date-released: 2026-10-21
+license: CC0-1.0
+repository-code: "https://github.com/ipitchford/sis-reconstruction-continuation"
