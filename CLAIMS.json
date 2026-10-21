@@ -1,6 +1,6 @@
 {
   "package": "sis-reconstruction-continuation",
-  "version": "1.0.0-candidate",
+  "version": "1.0.1-candidate",
   "claims": [
     {
       "id": "fixed-dimensional-continuation",

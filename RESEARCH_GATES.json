@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "1.0",
+  "contributionMap": [
+    {
+      "claim": "The fixed-dimensional SIS interval-continuation factor is uniformly finite on each bounded parameter box.",
+      "unit": "statement",
+      "paperLocation": "Theorem 3 and Section 4",
+      "searches": [{"date": "2026-10-20", "query": "polynomial ODE finite Lie derivatives Noetherian ideals scalar linear differential equation uniform observability", "corpus": "primary journals, arXiv and author manuscripts"}],
+      "closestPriorWork": "Novikov and Yakovenko (1999), Sections 2.2-2.3, supplies the general ideal-closure mechanism; Keliger and Horvath (2026), Conjecture 3.11 equation (14), is the SIS target.",
+      "verdict": "partially-known-cited"
+    },
+    {
+      "claim": "No dimension-free linear continuation factor exists; an exactly reconstructible bounded SIS family has exponential lower growth.",
+      "unit": "object",
+      "paperLocation": "Theorem 4 and Section 5",
+      "searches": [{"date": "2026-10-20", "query": "SIS continuation binomial cancellation exponential observability Gram matrix Keliger Horvath Conjecture 3.11", "corpus": "primary journals, arXiv, MathDB and web"}],
+      "closestPriorWork": "Keliger and Horvath (2026) poses the dimension-free question; no matching admissible construction was located in the bounded search.",
+      "verdict": "new-in-bounded-search"
+    },
+    {
+      "claim": "An explicit dimension-free Holder estimate replaces the failed linear estimate for residuals and full community-resolved trajectories.",
+      "unit": "method",
+      "paperLocation": "Theorems 5-6 and Section 6",
+      "searches": [{"date": "2026-10-20", "query": "SIS analytic continuation Holder prediction propagation of smallness interval observations", "corpus": "primary journals, arXiv and web"}],
+      "closestPriorWork": "Trefethen (2020), Theorem 5.2 and Section 7, establishes the generic bounded-analytic continuation mechanism; the contribution is the explicit dimension-free SIS application.",
+      "verdict": "partially-known-cited"
+    },
+    {
+      "claim": "Finite community-resolved samples with fill distance eta and bounded error sigma yield a deterministic continuation bound.",
+      "unit": "statement",
+      "paperLocation": "Corollary 7",
+      "searches": [{"date": "2026-10-20", "query": "network SIS sampled observation Holder continuation fill distance bounded measurement error", "corpus": "primary journals, arXiv and web"}],
+      "closestPriorWork": "The inspected generic continuation and SIS sources did not state this deterministic sampled-observation corollary.",
+      "verdict": "new-in-bounded-search"
+    },
+    {
+      "claim": "The complete-network reduction used to refute the block-regularity conjecture is prior art, while its use against the later conjecture is a source correction.",
+      "unit": "identification",
+      "paperLocation": "Section 7",
+      "searches": [{"date": "2026-10-20", "query": "complete weighted contact matrix homogeneous recovery SIS trajectory span initial state all-one vector", "corpus": "primary journals and author manuscripts"}],
+      "closestPriorWork": "Prasse, Devriendt and Van Mieghem (2021), Theorem 4 and Appendix F.",
+      "verdict": "known-cited"
+    }
+  ],
+  "sourcesReadInFull": [
+    {"citation": "Keliger and Horvath (2026), Journal of Mathematical Biology 92, Article 82", "usedFor": "model assumptions and Conjectures 3.3 and 3.11", "readWhat": "complete primary text, especially Sections 3.1-3.3 and Theorem 3.12", "date": "2026-10-20", "evidenceLocator": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13135567/"},
+    {"citation": "Prasse, Devriendt and Van Mieghem (2021), Chaos 31, 063115", "usedFor": "complete-network invariant-subspace collision", "readWhat": "Theorem 4 and Appendix F", "date": "2026-10-20", "evidenceLocator": "https://arxiv.org/pdf/2102.13151"},
+    {"citation": "Novikov and Yakovenko (1999), Annales de l'Institut Fourier 49(2)", "usedFor": "polynomial ideal closure and scalar-ODE mechanism", "readWhat": "Sections 2.2-2.3", "date": "2026-10-20", "evidenceLocator": "https://doi.org/10.5802/aif.1683"},
+    {"citation": "Trefethen (2020), BIT Numerical Mathematics 60", "usedFor": "generic Holder analytic-continuation antecedent", "readWhat": "Theorems 5.2-5.3 and Section 7", "date": "2026-10-20", "evidenceLocator": "https://doi.org/10.1007/s10543-020-00802-7"}
+  ],
+  "limitationTriage": [
+    {"limitation": "The displayed Holder exponent and constants are not optimal or claimed practically sharp.", "closingQuestion": "Can a sharper SIS-specific propagation-of-smallness estimate be proved cheaply?", "triedOrSearched": "Compared the explicit proof with generic bounded analytic continuation and disc-chain estimates.", "estimatedCost": "Substantial new analysis beyond two hours; no paid compute", "cheap": false, "decision": "OPEN", "reasonOpen": "Optimal conditional-stability constants require a separate research programme.", "whyNotClosedNow": ""},
+    {"limitation": "The sampled result is deterministic and assumes full community-resolved observations.", "closingQuestion": "Can the theorem be lifted to stochastic or aggregate-prevalence observations?", "triedOrSearched": "Searched SIS Holder prediction, analytic continuation and observation-scheme variants; derived the finite-sample bounded-error corollary.", "estimatedCost": "Substantial model and statistical theory beyond two hours", "cheap": false, "decision": "OPEN", "reasonOpen": "A stochastic or aggregate theorem changes the observation model and needs new identifiability analysis.", "whyNotClosedNow": ""},
+    {"limitation": "Continuous observation was less directly connected to finite measurements.", "closingQuestion": "Can a deterministic finite-sampling consequence be derived from the trajectory bound?", "triedOrSearched": "Used the uniform 4M time-Lipschitz bound and bounded sample errors.", "estimatedCost": "Under two hours; no paid compute", "cheap": true, "decision": "CLOSED", "reasonOpen": "", "whyNotClosedNow": ""},
+    {"limitation": "The universal analytic proofs are not proof-assistant formalised.", "closingQuestion": "Can the unrestricted Noetherian and analytic-continuation arguments be formalised cheaply?", "triedOrSearched": "Exact finite checks and hostile controls were completed; formalising the universal theory was assessed separately.", "estimatedCost": "Major formalisation project beyond two hours", "cheap": false, "decision": "OPEN", "reasonOpen": "The required analytic and algebraic libraries make this non-tractable within the publication revision.", "whyNotClosedNow": ""}
+  ],
+  "extensionScout": {
+    "by": "Evidence Press academic review and adversarial extension workflow",
+    "date": "2026-10-20",
+    "proposals": ["derive a finite-sample deterministic corollary", "seek a sharper Holder exponent", "extend to stochastic or aggregate observations"],
+    "actions": ["proved and integrated the finite-sample fill-distance and bounded-error corollary", "retained optimal-exponent and stochastic/aggregate extensions as accurately scoped open work"]
+  }
+}

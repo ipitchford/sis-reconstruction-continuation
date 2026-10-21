@@ -1,6 +1,6 @@
 # Reconstruction and continuation in network SIS epidemics
 
-Version DOI: <https://doi.org/10.5281/zenodo.23524675>  
+Version DOI: <https://doi.org/10.5281/zenodo.23525167>  
 Code and evidence: <https://github.com/ipitchford/sis-reconstruction-continuation>
 
 This release separates three questions that are often conflated in network epidemiology: whether a contact matrix is uniquely reconstructible from a full community-resolved trajectory, whether close agreement on an observation interval controls continuation, and whether such control can be uniform as the number of communities grows.
@@ -24,6 +24,8 @@ The exact checks cover finite ray constructions, homogeneous-network examples, T
 3. `ASSURANCE.md` — assurance classes and review boundary.
 4. `REPLAY_RECEIPT.md` — exact replay and negative-control results.
 5. `CITATION_AUDIT.md` — bounded novelty and prior-art audit.
+
+Version 1.0.1 adds the local evidence links required for `AI_INDEX.md` to function as an agent-readable index. The mathematics is unchanged from 1.0.0.
 
 ## Licences
 

@@ -4,12 +4,12 @@ title: "Reconstruction and continuation in network SIS epidemics"
 type: article
 authors:
   - family-names: "Anonymous"
-version: 1.0.0-candidate
+version: 1.0.1-candidate
 date-released: 2026-10-21
-doi: 10.5281/zenodo.23524675
+doi: 10.5281/zenodo.23525167
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.23524675
+    value: 10.5281/zenodo.23525167
     description: Archived candidate release
 license: CC0-1.0
 repository-code: "https://github.com/ipitchford/sis-reconstruction-continuation"
