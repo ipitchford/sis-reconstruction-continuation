@@ -1,5 +1,8 @@
 # Reconstruction and continuation in network SIS epidemics
 
+Version DOI: <https://doi.org/10.5281/zenodo.23524675>  
+Code and evidence: <https://github.com/ipitchford/sis-reconstruction-continuation>
+
 This release separates three questions that are often conflated in network epidemiology: whether a contact matrix is uniquely reconstructible from a full community-resolved trajectory, whether close agreement on an observation interval controls continuation, and whether such control can be uniform as the number of communities grows.
 
 The paper proves the fixed-dimensional continuation statement posed by Keliger and Horváth, disproves its dimension-free linear version by an exactly reconstructible family with exponential amplification, and supplies an explicit dimension-free Hölder replacement. A deterministic corollary also treats finitely sampled community-resolved trajectories with fill-distance and bounded measurement-error terms.

@@ -8,5 +8,6 @@
   "access_right": "open",
   "version": "1.0.0-candidate",
   "publication_date": "2026-10-21",
+  "doi": "10.5281/zenodo.23524675",
   "keywords": ["SIS epidemics", "network reconstruction", "analytic continuation", "observability", "inverse problems"]
 }
