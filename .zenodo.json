@@ -1,10 +1,11 @@
 {
   "title": "Reconstruction and continuation in network SIS epidemics",
-  "description": "A research release resolving fixed-dimensional and growing-dimensional continuation questions for deterministic network SIS trajectories, with an explicit dimension-free Holder replacement and a deterministic sampled-observation corollary.",
+  "description": "Unrefereed, AI-assisted research preprint. The release resolves fixed-dimensional and growing-dimensional continuation questions for deterministic network SIS trajectories, gives an explicit dimension-free Holder replacement, and derives a deterministic sampled-observation corollary. The exact supplementary checks do not machine-verify the universal analytic proofs.",
   "creators": [{"name": "Anonymous"}],
   "license": "cc-zero",
   "upload_type": "publication",
-  "publication_type": "article",
+  "publication_type": "preprint",
+  "access_right": "open",
   "version": "1.0.0-candidate",
   "publication_date": "2026-10-21",
   "keywords": ["SIS epidemics", "network reconstruction", "analytic continuation", "observability", "inverse problems"]
